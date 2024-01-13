@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-4mrd$divmu_am5f%nse6o)3#t@0#v4*%rxte=*$7qexd&f&)q1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1','localhost']
 CSRF_TRUSTED_ORIGINS = ['https://bold-surf-f3cccb0c.lz1mmz.on-acorn.io']
 
 AUTH_USER_MODEL = 'account.User'
@@ -73,8 +73,12 @@ WSGI_APPLICATION = 'pizarra.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+         'NAME':'railway',
+         'USER': 'postgres',
+         'PASSWORD': '5-GfGCegb5FBeE51Ee5GdA*cCdegf6A6',
+         'HOST': 'roundhouse.proxy.rlwy.net',
+         'PORT': '26346',
     }
 }
 
@@ -113,6 +117,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = os.path.join(BASE_DIR , 'static'),
+STATIC_ROOT = os.path.join(BASE_DIR , 'staticfiles_build', 'static')
+
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
