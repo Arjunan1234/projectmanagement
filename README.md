@@ -5,11 +5,11 @@ to-do list management, note-taking, and secure file uploads. Achieved enhanced p
 user-friendly interface.
 > Example Images
 ## Home Page 
-![Screenshot (456)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/c091ee5d-1cf9-46a8-b938-b37db04a2f5d)
+![Screenshot (471)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/c091ee5d-1cf9-46a8-b938-b37db04a2f5d)
 ## Signup Page
-![Screenshot (457)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/ea241da4-cba5-4947-a860-5e71e7c47602)
+![Screenshot (472)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/ea241da4-cba5-4947-a860-5e71e7c47602)
 ## Login Page
-![Screenshot (458)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/5a9392d5-1177-405c-96b2-60d412429649)
+![Screenshot (473)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/5a9392d5-1177-405c-96b2-60d412429649)
 ## After Login Home Page
 ![Screenshot (461)](https://github.com/Arjunan1234/projectmanagement/assets/63443618/b1253030-1264-42f8-b521-cd52788789fb)
 ## Click the Project Button
